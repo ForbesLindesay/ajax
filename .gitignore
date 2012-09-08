@@ -1,3 +1,6 @@
+components
+build
+
 lib-cov
 *.seed
 *.log

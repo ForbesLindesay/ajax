@@ -1,4 +1,5 @@
-ajax
-====
 
-Standalone AJAX library inspired by jQuery/zepto
+# ajax
+
+  Standalone AJAX library inspired by jQuery/zepto
+

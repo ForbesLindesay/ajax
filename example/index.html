@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    </head>
+    <body>
+        <h1>Demo</h1>
+        <p>The result of calling an async operation should be "bar".</p>
+        <p>The result is: <span id="result"></span></p>
+        <script src="/build/build.js"></script>
+        <script>
+            ajax.getJSON("sample.json", function (res) {
+                document.getElementById('result').innerHTML = '"' + res.foo + '"';
+            });
+        </script>
+    </body>
+</html>
