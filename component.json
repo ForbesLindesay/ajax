@@ -8,5 +8,8 @@
     "component/type": "*"
   },
   "development": {},
-  "scripts": ["index.js"]
+  "scripts": [
+    "index.js"
+  ],
+  "license": "MIT"
 }
