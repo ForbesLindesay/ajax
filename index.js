@@ -249,7 +249,9 @@ var escape = encodeURIComponent
 
 function serialize(params, obj, traditional, scope){
   var array = type(obj) === 'array';
-  each(obj, function(key, value) {
+  for (var key in obj) {
+    var value = obj[key];
+
     if (scope) key = traditional ? scope : scope + '[' + (array ? '' : key) + ']'
     // handle data in serializeArray() format
     if (!scope && array) params.add(value.name, value.value)
@@ -257,7 +259,7 @@ function serialize(params, obj, traditional, scope){
     else if (traditional ? (type(value) === 'array') : (type(value) === 'object'))
       serialize(params, value, traditional, key)
     else params.add(key, value)
-  })
+  }
 }
 
 function param(obj, traditional){
