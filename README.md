@@ -17,7 +17,7 @@ Then load using:
 var ajax = require('ajax');
 ```
 
-Or load using a script tag (the file is available in downloads)
+Or load using a script tag (downloads are available [here](https://component.jit.su/ForbesLindesay/ajax/download))
 
 ```html
 <script src="ajax.min.js"></script>
