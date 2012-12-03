@@ -7,8 +7,6 @@ Standalone AJAX library inspired by jQuery/zepto
 
 [![component](https://component.jit.su/component-badge.svg)](https://component.jit.su/refer/ForbesLindesay/ajax)
 
-You can use [component](https://github.com/component/component):
-
 ```
 component-install ForbesLindesay/ajax
 ```
