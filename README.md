@@ -39,3 +39,5 @@ Then just refer to it in your script as `ajax`
 For a list of available settings see:
 
 http://api.jquery.com/jQuery.ajax/
+
+![viewcount](https://viewcount.jepso.com/count/ForbesLindesay/ajax.png)
