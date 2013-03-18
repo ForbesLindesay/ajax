@@ -40,4 +40,10 @@ For a list of available settings see:
 
 http://api.jquery.com/jQuery.ajax/
 
+## License
+
+  MIT
+
+  If you find it useful, a payment via [gittip](https://www.gittip.com/ForbesLindesay) would be appreciated.
+
 ![viewcount](https://viewcount.jepso.com/count/ForbesLindesay/ajax.png)
