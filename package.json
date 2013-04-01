@@ -1,0 +1,12 @@
+{
+  "name": "component-ajax",
+  "repo": "ForbesLindesay/ajax",
+  "description": "Standalone AJAX library inspired by jQuery/zepto",
+  "version": "0.0.1",
+  "keywords": [],
+  "dependencies": {
+    "component-type": "*"
+  },
+  "main": "index.js",
+  "license": "MIT"
+}
