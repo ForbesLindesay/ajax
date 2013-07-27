@@ -8,5 +8,6 @@
     "component-type": "*"
   },
   "main": "index.js",
-  "license": "MIT"
+  "license": "MIT",
+  "author": "ForbesLindesay"
 }
