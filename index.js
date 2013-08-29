@@ -155,7 +155,9 @@ ajax.JSONP = function(options){
       if (callbackName in window) window[callbackName] = empty
       ajaxComplete('abort', xhr, options)
     },
-    xhr = { abort: abort }, abortTimeout
+    xhr = { abort: abort }, abortTimeout,
+    head = document.getElementsByTagName("head")[0]
+      || document.documentElement
 
   if (options.error) script.onerror = function() {
     xhr.abort()
@@ -172,8 +174,10 @@ ajax.JSONP = function(options){
 
   serializeData(options)
   script.src = options.url.replace(/=\?/, '=' + callbackName)
-  //tood: append to head
-  //$('head').append(script)
+
+  // Use insertBefore instead of appendChild to circumvent an IE6 bug.
+  // This arises when a base node is used (see jQuery bugs #2709 and #4378).
+  head.insertBefore(script, head.firstChild);
 
   if (options.timeout > 0) abortTimeout = setTimeout(function(){
       xhr.abort()
