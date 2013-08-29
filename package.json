@@ -1,7 +1,7 @@
 {
   "name": "component-ajax",
   "description": "Standalone AJAX library inspired by jQuery/zepto",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "keywords": [],
   "dependencies": {
     "type-of": "*"
