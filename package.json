@@ -1,11 +1,10 @@
 {
   "name": "component-ajax",
-  "repo": "ForbesLindesay/ajax",
   "description": "Standalone AJAX library inspired by jQuery/zepto",
   "version": "0.0.1",
   "keywords": [],
   "dependencies": {
-    "component-type": "*"
+    "type-of": "*"
   },
   "main": "index.js",
   "license": "MIT",
@@ -13,5 +12,12 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/ForbesLindesay/ajax.git"
+  },
+  "devDependencies": {
+    "uglify-js": "~2.4.0",
+    "browserify": "~2.29.0"
+  },
+  "scripts": {
+    "prepublish": "browserify index.js | uglifyjs > ajax.min.js"
   }
 }
