@@ -14,8 +14,8 @@
     "url": "https://github.com/ForbesLindesay/ajax.git"
   },
   "devDependencies": {
-    "uglify-js": "~2.4.0",
-    "browserify": "~2.29.0"
+    "uglify-js": "~2.7.5",
+    "browserify": "~14.1.0"
   },
   "scripts": {
     "prepublish": "browserify index.js | uglifyjs > ajax.min.js"
