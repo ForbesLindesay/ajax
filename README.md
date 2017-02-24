@@ -1,6 +1,8 @@
 ajax
 ====
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/ForbesLindesay/ajax.svg)](https://greenkeeper.io/)
+
 Standalone AJAX library inspired by jQuery/zepto
 
 ## Installation
