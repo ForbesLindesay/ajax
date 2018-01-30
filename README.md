@@ -3,9 +3,7 @@ ajax
 
 Standalone AJAX library inspired by jQuery/zepto
 
-<a target='_blank' rel='nofollow' href='https://app.codesponsor.io/link/gg9sZwctSLxyov1sJwW6pfyS/ForbesLindesay/ajax'>
-  <img alt='Sponsor' width='888' height='68' src='https://app.codesponsor.io/embed/gg9sZwctSLxyov1sJwW6pfyS/ForbesLindesay/ajax.svg' />
-</a>
+
 
 ## Installation
 
