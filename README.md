@@ -1,4 +1,13 @@
-ajax
+ajax [![NPM Version][npm-image]][npm-url] [![Dependency Status][dependencies-image]][dependencies-url] [![devDependency Status][dev-dependencies-image]][dev-dependencies-url]
+
+[npm-image]: https://badge.fury.io/js/component-ajax.svg
+[npm-url]: https://badge.fury.io/js/component-ajax
+
+[dependencies-image]: https://david-dm.org/ForbesLindesay/ajax.svg
+[dependencies-url]: https://david-dm.org/ForbesLindesay/ajax
+
+[dev-dependencies-image]: https://david-dm.org/ForbesLindesay/ajax/dev-status.svg
+[dev-dependencies-url]: https://david-dm.org/ForbesLindesay/ajax#info=devDependencies
 ====
 
 Standalone AJAX library inspired by jQuery/zepto
